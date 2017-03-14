@@ -1,0 +1,2 @@
+/media/dl/sdc2/cmake_demo/CMakeFiles/demo.dir
+/media/dl/sdc2/cmake_demo/utils/CMakeFiles/utils.dir

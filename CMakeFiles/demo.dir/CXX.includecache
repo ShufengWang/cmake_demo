@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/dl/sdc2/cmake_demo/config.h
+
+/media/dl/sdc2/cmake_demo/demo.cc
+iostream
+-
+cstdio
+-
+string
+-
+config.h
+/media/dl/sdc2/cmake_demo/config.h
+utils/disp.h
+/media/dl/sdc2/cmake_demo/utils/disp.h
+
+/media/dl/sdc2/cmake_demo/utils/disp.h
+iostream
+-
+string
+-
+

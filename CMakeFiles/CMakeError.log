@@ -1,0 +1,22 @@
+Determining if the function disp exists failed with the following output:
+Change Dir: /media/dl/sdc2/cmake_demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1106187172/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1106187172.dir/build.make CMakeFiles/cmTryCompileExec1106187172.dir/build
+make[1]: Entering directory `/media/dl/sdc2/cmake_demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/dl/sdc2/cmake_demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+/usr/bin/cmake: /media/dl/sdc1/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTryCompileExec1106187172.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=disp   -o CMakeFiles/cmTryCompileExec1106187172.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1106187172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1106187172.dir/link.txt --verbose=1
+/usr/bin/cmake: /media/dl/sdc1/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=disp    CMakeFiles/cmTryCompileExec1106187172.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1106187172 -rdynamic 
+CMakeFiles/cmTryCompileExec1106187172.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `disp'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/media/dl/sdc2/cmake_demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1106187172] Error 1
+make: *** [cmTryCompileExec1106187172/fast] Error 2
+
+

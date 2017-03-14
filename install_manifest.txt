@@ -1,0 +1,4 @@
+/media/dl/sdc2/cmake_demo/_CPack_Packages/Linux/TZ/cmake_demo-1.0.1-Linux/bin/demo
+/media/dl/sdc2/cmake_demo/_CPack_Packages/Linux/TZ/cmake_demo-1.0.1-Linux/include/config.h
+/media/dl/sdc2/cmake_demo/_CPack_Packages/Linux/TZ/cmake_demo-1.0.1-Linux/bin/libutils.a
+/media/dl/sdc2/cmake_demo/_CPack_Packages/Linux/TZ/cmake_demo-1.0.1-Linux/include/disp.h

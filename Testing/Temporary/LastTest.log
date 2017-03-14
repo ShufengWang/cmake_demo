@@ -1,0 +1,41 @@
+Start testing: Mar 14 15:28 CST
+----------------------------------------------------------
+1/2 Testing: test_run
+1/2 Test: test_run
+Command: "/media/dl/sdc2/cmake_demo/demo" "haha"
+Directory: /media/dl/sdc2/cmake_demo
+"test_run" start time: Mar 14 15:28 CST
+Output:
+----------------------------------------------------------
+hehe!
+Using our own utils library.
+haha
+haha haha
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_run" end time: Mar 14 15:28 CST
+"test_run" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_usage
+2/2 Test: test_usage
+Command: "/media/dl/sdc2/cmake_demo/demo"
+Directory: /media/dl/sdc2/cmake_demo
+"test_usage" start time: Mar 14 15:28 CST
+Output:
+----------------------------------------------------------
+/media/dl/sdc2/cmake_demo/demo Version 1.0
+usage: /media/dl/sdc2/cmake_demo/demo display string
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[usage:
+]
+"test_usage" end time: Mar 14 15:28 CST
+"test_usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 14 15:28 CST

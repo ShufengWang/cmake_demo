@@ -1,0 +1,2 @@
+/usr/bin/ar cr libutils.a  CMakeFiles/utils.dir/disp.cc.o
+/usr/bin/ranlib libutils.a
